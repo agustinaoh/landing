@@ -1,0 +1,22 @@
+.banner {
+  width: 100%;
+  padding: 260px 0;
+  color: white;
+}
+
+  .banner p {
+    font-size: 17px;
+    margin-top: ;
+    margin: 6px;
+  }
+  
+  .banner h1 {
+    text-shadow: 0 0 7px #b06c6c73;
+    margin: 0;
+  }
+
+  @media (max-width: 500px) {
+    .banner {
+      background-position-x: -136px;
+    }
+  }

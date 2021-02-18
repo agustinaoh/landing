@@ -1,0 +1,71 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@600&family=Rubik:wght@300;400;600&display=swap" rel="stylesheet"> */
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('../css/components/banner.css');
+@import url('../css/components/buttons.css');
+@import url('../css/components/cards.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h1 {
+ font-size: 46px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f4c1d2;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+  padding-bottom: 20px;
+  padding-top: 14px;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container > h2 {
+  margin-top: 40px;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
